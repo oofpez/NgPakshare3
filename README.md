@@ -6,7 +6,7 @@ It can be made available on a private NuGet repo:
 
 Wimt.CachingFramework is configured in your projects' web.config using the <cachingFramework> section. Example:
 
-<Image 1>
+Image 1>
 
 In the above example, two caches have been set up:
 
@@ -22,10 +22,10 @@ Right now, there are only two types of caches that can be created:
 
 Caching a the return data from a service or repository method can be done using the CacheAttribute, like this:​
 
-<Image 2>
+Image 2>
 
 This will use the ContextData cache (as set up in the config) and will have a lifespan of 5 minutes.
 
 Basic class design for those interested:
 
-<Image 3>
+Image 3>
